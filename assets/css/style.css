@@ -1,3 +1,4 @@
+/* Border & padding included in width & height of ALL boxes on page  */
 * {
 
     box-sizing: border-box;
@@ -6,12 +7,14 @@
 
 }
 
+/* background color of page */
 body {
 
     background-color: #d9dcd6;
 
 }
 
+/* header element layout properties */
 header {
 
     padding: 20px;
@@ -21,6 +24,7 @@ header {
 
 }
 
+/* Display style of Horiseon in the header */
 header h1 {
 
     display: inline-block;
@@ -28,12 +32,14 @@ header h1 {
 
 }
 
+/* Change color of the 'seo' in Horiseon */
 header h1 .seo {
 
     color: #d9dcd6;
 
 }
 
+/* Header links layout properties */
 header div {
 
     padding-top: 15px;
@@ -41,15 +47,11 @@ header div {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-
-}
-
-header div ul {
-
     list-style-type: none;
 
 }
 
+/* Inline display of header links */
 header div ul li {
 
     display: inline-block;
@@ -57,6 +59,7 @@ header div ul li {
 
 }
 
+/* Link text color & remove underline */
 a {
 
     color: #ffffff;
@@ -64,12 +67,14 @@ a {
 
 }
 
+/* All paragraph element properties */
 p {
 
     font-size: 16px;
 
 }
 
+/* Cover image layout properties */
 .hero {
 
     height: 800px;
@@ -81,20 +86,7 @@ p {
 
 }
 
-.float-left {
-
-    float: left;
-    margin-right: 25px;
-
-}
-
-.float-right {
-
-    float: right;
-    margin-left: 25px;
-
-}
-
+/* Left blocks layout properties */
 .content {
 
     width: 75%;
@@ -103,6 +95,50 @@ p {
 
 }
 
+/* Left blocks sections' layout properties */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+
+}
+
+/* Left blocks headings' layout proerties */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+
+    margin-bottom: 20px;
+    font-size: 36px;
+
+}
+
+/* Left blocks images' layout properties */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+
+    max-height: 200px;
+
+}
+
+/* Images in the left blocks desired to float left */
+.float-left {
+
+    float: left;
+    margin-right: 25px;
+
+}
+
+/* Images in the left blocks desired to float right */
+.float-right {
+
+    float: right;
+    margin-left: 25px;
+
+}
+
+/* Right column layout properties */
 .benefits {
 
     margin-right: 20px;
@@ -116,6 +152,7 @@ p {
 
 }
 
+/* Right column sections' layout properties */
 .benefit-lead, .benefit-brand, .benefit-cost {
 
     margin-bottom: 32px;
@@ -123,6 +160,7 @@ p {
 
 }
 
+/* Right column headings' layout properites */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
 
     margin-bottom: 10px;
@@ -130,6 +168,7 @@ p {
 
 }
 
+/* Right column images' layout properties */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
 
     display: block;
@@ -138,30 +177,7 @@ p {
 
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-
-}
-
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-
-    max-height: 200px;
-
-}
-
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
-
-    margin-bottom: 20px;
-    font-size: 36px;
-
-}
-
+/* Footer layout properties */
 .footer {
 
     padding: 30px;
@@ -171,6 +187,7 @@ p {
 
 }
 
+/* Footer heading style properties */
 .footer h4 {
 
     font-size: 20px;
