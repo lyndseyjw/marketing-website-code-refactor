@@ -40,7 +40,7 @@ header h1 .seo {
 }
 
 /* Header links layout properties */
-header div {
+header nav {
 
     padding-top: 15px;
     margin-right: 20px;
@@ -52,7 +52,7 @@ header div {
 }
 
 /* Inline display of header links */
-header div ul li {
+header nav ul li {
 
     display: inline-block;
     margin-left: 25px;
