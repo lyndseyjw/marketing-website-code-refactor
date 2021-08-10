@@ -9,4 +9,4 @@ In CSS, I combined multiple elements with the same properties & rearranged them 
 
 To access the newly-accessible webpage, please click here : https://lyndseyjw.github.io/marketing-website-code-refactor/
 
-    ![website screenshot](/assets/images/code-refactor-horiseon.png)
+![website screenshot](./assets/images/code-refactor-horiseon.png)
